@@ -4,110 +4,75 @@
   "renderType": "multisparrow",
   "assetPath": "characters/BOYFRIEND",
   "flipX": true,
-  "singTime": 8.0,
+  "scale": 6.1,
+  "singTime": 6.1,
   "animations": [
     {
       "name": "idle",
-      "prefix": "BF idle dance",
-      "offsets": [-5, -5]
+      "prefix": "BFIdle0",
+      "offsets": [0, 0]
     },
     {
       "name": "singLEFT",
-      "prefix": "BF NOTE LEFT0",
-      "offsets": [12, -11]
+      "prefix": "BFLeft0",
+      "offsets": [83, -1]
     },
     {
       "name": "singDOWN",
-      "prefix": "BF NOTE DOWN0",
-      "offsets": [-10, -55]
+      "prefix": "BFDown0",
+      "offsets": [-26, -59]
     },
     {
       "name": "singUP",
-      "prefix": "BF NOTE UP0",
-      "offsets": [-29, 22]
+      "prefix": "BFUp0",
+      "offsets": [-56, 65]
     },
     {
       "name": "singRIGHT",
-      "prefix": "BF NOTE RIGHT0",
-      "offsets": [-38, -12]
+      "prefix": "BFRight0",
+      "offsets": [-63, 1]
     },
     {
-      "name": "singLEFTmiss",
-      "prefix": "BF NOTE LEFT MISS",
-      "offsets": [12, 19]
+      "name": "singLEFT-alt",
+      "prefix": "BFLeftALT",
+      "offsets": [80, 0]
     },
     {
-      "name": "singDOWNmiss",
-      "prefix": "BF NOTE DOWN MISS",
-      "offsets": [-11, -24]
+      "name": "singDOWN-alt",
+      "prefix": "BFDownALT",
+      "offsets": [107, 125]
     },
     {
-      "name": "singUPmiss",
-      "prefix": "BF NOTE UP MISS",
-      "offsets": [-29, 22]
+      "name": "singUP-alt",
+      "prefix": "BFUpALT",
+      "offsets": [37, 70]
     },
     {
-      "name": "singRIGHTmiss",
-      "prefix": "BF NOTE RIGHT MISS",
-      "offsets": [-30, 16]
-    },
-    {
-      "name": "preAttack",
-      "prefix": "bf pre attack",
-      "offsets": [0, 0]
-    },
-    {
-      "name": "attack",
-      "prefix": "boyfriend attack",
-      "offsets": [0, 0]
-    },
-    {
-      "name": "dodge",
-      "prefix": "boyfriend dodge",
-      "offsets": [0, 0]
-    },
-    {
-      "name": "hey",
-      "prefix": "BF HEY!!",
-      "offsets": [7, -1]
-    },
-    {
-      "name": "cheer",
-      "prefix": "Cheer",
-      "assetPath": "characters/BFCheer",
-      "offsets": [0, -5]
-    },
-    {
-      "name": "hit",
-      "prefix": "BF hit",
-      "assetPath": "characters/BOYFRIEND",
-      "offsets": [0, -5]
+      "name": "singRIGHT-alt",
+      "prefix": "BFRightALT",
+      "offsets": [-30, 6]
     },
     {
       "name": "firstDeath",
       "prefix": "BF dies",
-      "offsets": [-37, 11]
-    },
-    {
-      "name": "fakeoutDeath",
-      "prefix": "BF dies",
+      "assetPath": "characters/BOYFRIEND",
+      "scale": 1.25,
       "offsets": [-37, 11]
     },
     {
       "name": "deathLoop",
       "prefix": "BF Dead Loop",
+      "assetPath": "characters/BOYFRIEND",
+      "scale": 1.25,
       "looped": true,
       "offsets": [-37, 5]
     },
     {
       "name": "deathConfirm",
       "prefix": "BF Dead confirm",
+      "assetPath": "characters/BOYFRIEND",
+      "scale": 1.25,
       "offsets": [-37, 69]
-    },
-    {
-      "name": "scared",
-      "prefix": "BF idle shaking",
-      "offsets": [-4, 0]
     }
   ]
 }

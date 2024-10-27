@@ -2,67 +2,176 @@
   "version": "1.0.0",
   "name": "Daddy Dearest",
   "assetPath": "characters/daddyDearest",
-  "singTime": 8.0,
+  "singTime": 6.1,
+  "danceEvery": 1,
+	"scale": 1,
   "animations": [
-    {
-      "name": "idle",
-      "prefix": "idle",
-      "offsets": [0, 0]
-    },
-    {
-      "name": "idle-hold",
-      "prefix": "idle",
-      "looped": true,
-      "frameIndices": [11, 12],
-      "offsets": [0, 0]
-    },
-    {
-      "name": "singLEFT",
-      "prefix": "singLEFT",
-      "offsets": [-10, 10]
-    },
-    {
-      "name": "singLEFT-hold",
-      "prefix": "singLEFT",
-      "looped": true,
-      "frameIndices": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
-      "offsets": [-10, 10]
-    },
-    {
-      "name": "singDOWN",
-      "prefix": "singDOWN",
-      "offsets": [0, -30]
-    },
-    {
-      "name": "singDOWN-hold",
-      "prefix": "singDOWN",
-      "looped": true,
-      "frameIndices": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
-      "offsets": [0, -30]
-    },
-    {
-      "name": "singUP",
-      "prefix": "singUP",
-      "offsets": [-6, 50]
-    },
-    {
-      "name": "singUP-hold",
-      "prefix": "singUP",
-      "looped": true,
-      "frameIndices": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
-      "offsets": [-6, 50]
-    },
-    {
-      "name": "singRIGHT",
-      "prefix": "singRIGHT",
-      "offsets": [0, 27]
-    },
-    {
-      "name": "singRIGHT-hold",
-      "prefix": "singRIGHT",
-      "looped": true,
-      "frameIndices": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
-      "offsets": [0, 27]
-    }
-  ]
+		{
+			"flipY": false,
+			"offsets": [
+				-12,
+				3
+			],
+			"frameRate": 24,
+			"prefix": "ElIdleBIG",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				102,
+				33
+			],
+			"frameRate": 24,
+			"prefix": "ElLeftBIG",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"cameraOffsets": [
+				-30,
+				0
+			]
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				9,
+				-128
+			],
+			"frameRate": 24,
+			"prefix": "ElDownBIG",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"indices": [
+				0,
+				1,
+				2,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				156,
+				280
+			],
+			"frameRate": 24,
+			"prefix": "ElUpBIG",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-22,
+				31
+			],
+			"frameRate": 24,
+			"prefix": "ElRightBIG",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-81,
+				-460
+			],
+			"frameRate": 24,
+			"prefix": "ElIdleSMALL",
+			"flipX": false,
+			"looped": false,
+			"name": "idle-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-24,
+				-437
+			],
+			"frameRate": 24,
+			"prefix": "ElLeftSMALL",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-78,
+				-507
+			],
+			"frameRate": 24,
+			"prefix": "ElDownSMALL",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-102,
+				-407
+			],
+			"frameRate": 24,
+			"prefix": "ElUpSMALL",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-90,
+				-457
+			],
+			"frameRate": 24,
+			"prefix": "ElRightSMALL",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				62,
+				2
+			],
+			"frameRate": 24,
+			"assetPath": "characters/Lookalike_Alt",
+			"prefix": "ElUngrow0",
+			"flipX": false,
+			"looped": false,
+			"name": "shrink",
+			"indices": [0,1,2,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32]
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				101,
+				143
+			],
+			"frameRate": 24,
+			"assetPath": "characters/unshrink",
+			"prefix": "ElUnshrink0",
+			"flipX": false,
+			"looped": false,
+			"name": "unshrink"
+		}
+	]
 }
