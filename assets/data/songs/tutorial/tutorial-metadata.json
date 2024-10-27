@@ -7,7 +7,7 @@
     "stage": "mainStage",
     "characters": { "player": "bf", "opponent": "gf" },
     "songVariations": [],
-    "difficulties": ["easy", "normal", "hard"],
+    "difficulties": ["normal"],
     "noteStyle": "funkin"
   },
   "songName": "Tutorial",

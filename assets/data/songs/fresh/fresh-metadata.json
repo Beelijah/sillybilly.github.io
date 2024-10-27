@@ -7,7 +7,7 @@
     "stage": "mainStage",
     "characters": { "player": "bf", "girlfriend": "gf", "opponent": "dad" },
     "songVariations": ["erect"],
-    "difficulties": ["easy", "normal", "hard"],
+    "difficulties": ["we-are-nintendo-you-cannot-beat-us"],
     "noteStyle": "funkin"
   },
   "songName": "Fresh",
