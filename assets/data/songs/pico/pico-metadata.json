@@ -6,7 +6,7 @@
     "stage": "phillyTrain",
     "characters": { "player": "bf", "girlfriend": "gf", "opponent": "pico" },
     "songVariations": ["erect"],
-    "difficulties": ["easy", "normal", "hard"],
+    "difficulties": ["we-are-nintendo-you-cannot-beat-us"],
     "noteStyle": "funkin"
   },
   "songName": "Pico",

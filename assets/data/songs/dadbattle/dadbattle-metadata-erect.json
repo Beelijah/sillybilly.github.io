@@ -14,12 +14,7 @@
   },
   "playData": {
     "songVariations": [    ],
-    "difficulties": [
-      "erect",
-      "nightmare",
-      "normal",
-      "hard"
-    ],
+    "difficulties": ["we-are-nintendo-you-cannot-beat-us"],
     "characters": {
       "player": "bf",
       "girlfriend": "gf",

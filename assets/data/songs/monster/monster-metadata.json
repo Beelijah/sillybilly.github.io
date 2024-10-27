@@ -13,12 +13,7 @@
     "songVariations": [
       "erect"
     ],
-    "difficulties": [
-      "easy",
-      "normal",
-      "hard",
-      "nightmare"
-    ],
+    "difficulties": ["we-are-nintendo-you-cannot-beat-us"],
     "characters": {
       "player": "bf",
       "girlfriend": "gf",
