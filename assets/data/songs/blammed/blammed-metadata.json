@@ -6,7 +6,7 @@
     "stage": "phillyTrain",
     "characters": { "player": "bf", "girlfriend": "gf", "opponent": "pico" },
     "songVariations": [],
-    "difficulties": [],
+    "difficulties": ["asdifja"],
     "noteStyle": "funkin"
   },
   "songName": "Blammed",
