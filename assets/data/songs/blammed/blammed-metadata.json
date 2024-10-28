@@ -5,8 +5,8 @@
     "album": "volume1",
     "stage": "phillyTrain",
     "characters": { "player": "bf", "girlfriend": "gf", "opponent": "pico" },
-    "songVariations": ["erect"],
-    "difficulties": ["we-are-nintendo-you-cannot-beat-us"],
+    "songVariations": [],
+    "difficulties": [],
     "noteStyle": "funkin"
   },
   "songName": "Blammed",
