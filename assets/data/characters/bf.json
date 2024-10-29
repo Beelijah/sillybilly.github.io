@@ -4,7 +4,7 @@
   "renderType": "multisparrow",
   "assetPath": "characters/BOYFRIEND",
   "flipX": true,
-  "scale": 0.9,
+  "scale": 1,
   "singTime": 6.1,
   "animations": [
     {
